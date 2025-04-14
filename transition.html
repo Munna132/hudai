@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bat{
+        transform:rotate(30deg);
+        transition: transform 2s ease-in-out;
+      }
+      .bat:hover{
+        transform: rotate(-40deg);
+        transform-origin: 30% 20%;
+      }
+      .ball{
+        height: 50px;
+        width: 50px;
+        background-color: red;
+        border-radius: 50%;
+        position:relative;
+        left: 170px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Transition</h1>
+      <img class="bat" src="bat3.jpg" alt="bat" width="400" height="400" />
+      <div class="ball"></div>
+    </div>
+  </body>
+</html>

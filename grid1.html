@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grd {
+        display: grid;
+        grid-gap:30px 18px;
+        grid-template-columns: 200px 1fr 1fr;
+      }
+      .article {
+        border: 1px solid red;
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+      }
+      .article-1 {
+        grid-row: 1 / span 6;
+      }
+      .article-2 {
+        grid-column: 2 / span 2;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="grd">
+      <div class="article article-1">box-1</div>
+      <div class="article article-2">box-2</div>
+      <div class="article article-3">box-3</div>
+      <div class="article article-4">box-4</div>
+      <div class="article article-5">box-5</div>
+      <div class="article article-6">box-6</div>
+      <div class="article article-7">box-7</div>
+      <div class="article article-8">box-8</div>
+      <div class="article article-9">box-9</div>
+      <div class="article article-10">box-10</div>
+      <div class="article article-11">box-11</div>
+      <div class="article article-12">box-12</div>
+      <div class="article article-13">box-13</div>
+      <div class="article article-14">box-14</div>
+      <div class="article article-15">box-15</div>
+    </section>
+  </body>
+</html>
